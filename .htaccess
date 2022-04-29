@@ -1,15 +1,9 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php [NC,L]
 
-# BEGIN WordPress
-# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /sreventmanagement/
-RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /sreventmanagement/index.php [L]
-</IfModule>
+RewriteRule ^(.*)$ err404.php [L]
 
-# END WordPress
