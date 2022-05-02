@@ -1,9 +1,18 @@
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.php -f 
-RewriteRule ^(.*)$ $1.php [NC,L]
+IndexIgnore *
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ err404.php [L]
-
+<Files log.txt>
+order allow,deny
+deny from all
+</Files>
+<Files *.log>
+order allow,deny
+deny from all
+</Files>
+<Files log*.txt>
+order allow,deny
+deny from all
+</Files>
+<Files *.yml>
+order allow,deny
+deny from all
+</Files>

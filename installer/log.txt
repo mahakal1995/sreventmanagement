@@ -1,0 +1,49 @@
+Client Info
+
+User Agent : Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0
+Remote Address : 101.63.35.225
+
+Server Info
+
+Host : test.inextrix.com
+PHP Version : 5.3.3
+Server : Apache/2.2.3 (CentOS)
+Admin : webmaster@inextrix.com
+
+Document Root : /var/www/html/inextrix
+ROOT_PATH : /var/www/html/inextrix/hrm271
+
+OrangeHRM Installation Log
+
+Sat, 26 Jan 2013 01:21:21 +0530 DB Creation - Starting
+Sat, 26 Jan 2013 01:21:21 +0530 DB Creation - Done
+Sat, 26 Jan 2013 01:21:21 +0530 DB Creation - No Errors
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - Starting
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - Connected to the DB Server
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - Selected the DB
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - Reading DB Script
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - Opened DB Script
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - Read DB script
+Sat, 26 Jan 2013 01:21:24 +0530 Fill Data Phase 1 - There are 227 Statements in the DB script
+Sat, 26 Jan 2013 01:21:25 +0530 Fill Data Phase 1 - Done
+Sat, 26 Jan 2013 01:21:25 +0530 Fill Data Phase 1 - No Errors
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Starting
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Connected to the DB Server
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Selected the DB
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Reading DB Script
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Opened DB Script
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Read DB script
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - There are 37 Statements in the DB script
+Sat, 26 Jan 2013 01:21:29 +0530 MySQL Event Error:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EVENT leave_taken_status_change
+                    ON SCHEDULE EVERY 1 HOUR ST' at line 1
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - Done
+Sat, 26 Jan 2013 01:21:29 +0530 Fill Data Phase 2 - No Errors
+Sat, 26 Jan 2013 01:21:32 +0530 Create DB user - Starting
+Sat, 26 Jan 2013 01:21:32 +0530 Create DB user - Done
+Sat, 26 Jan 2013 01:21:32 +0530 Create DB user - No Errors
+Sat, 26 Jan 2013 01:21:35 +0530 Create OrangeHRM user - Starting
+Sat, 26 Jan 2013 01:21:35 +0530 Create OrangeHRM user - Done
+Sat, 26 Jan 2013 01:21:35 +0530 Create OrangeHRM user - No Errors
+Sat, 26 Jan 2013 01:21:39 +0530 Write Conf - Starting
+Sat, 26 Jan 2013 01:21:39 +0530 Write Conf - Done
+Sat, 26 Jan 2013 01:21:39 +0530 Write Conf - No Errors

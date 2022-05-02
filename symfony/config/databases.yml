@@ -1,0 +1,15 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=hrm_fcs'
+      username: fdbuser
+      password: FiV35pas5
+      attributes: { export: tables }
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=hrm_fcs'
+      username: fdbuser
+      password: FiV35pas5
